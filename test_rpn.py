@@ -1,6 +1,6 @@
 import unittest
 
-import rpn
+import rpn_backup as rpn
 
 class TestBasics(unittest.TestCase):
     def test_add(self):
@@ -15,4 +15,3 @@ class TestBasics(unittest.TestCase):
     def test_divide(self):
         result = rpn.calculate("6 3 /")
         self.assertEqual(2, result)
-
