@@ -1,6 +1,7 @@
 import unittest
 
-import rpn_backup as rpn
+#import rpn_backup as rpn
+import rpn
 
 class TestBasics(unittest.TestCase):
     def test_add(self):
