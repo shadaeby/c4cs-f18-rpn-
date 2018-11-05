@@ -2,6 +2,7 @@
 
 import operator
 
+from colorama import *
 
 operators = {
     '+': operator.add,
@@ -28,6 +29,8 @@ def calculate(myarg):
     return stack.pop()
 
 def main():
+
+    print(Fore.RED + "This is red text");
     while True:
         result = calculate(input("rpn calc> "))
         print("Result: ", result)
