@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 import operator
-
-from colorama import *
+#import colorama
+#from colorama import *
+from colorama import Fore, Back, Style
 
 operators = {
     '+': operator.add,
@@ -29,8 +30,11 @@ def calculate(myarg):
     return stack.pop()
 
 def main():
+  #  init();
+ #   print(Fore.RED + "This is red text");
 
-    print(Fore.RED + "This is red text");
+    print(Fore.RED + 'some red text')
+    print(Back.GREEN + 'and with a green background')
     while True:
         result = calculate(input("rpn calc> "))
         print("Result: ", result)
