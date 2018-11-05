@@ -3,7 +3,7 @@
 import operator
 #import colorama
 #from colorama import *
-from colorama import Fore, Back, Style
+#from colorama import Fore, Back, Style
 
 operators = {
     '+': operator.add,
@@ -33,8 +33,8 @@ def main():
   #  init();
  #   print(Fore.RED + "This is red text");
 
-    print(Fore.RED + 'some red text')
-    print(Back.GREEN + 'and with a green background')
+ #   print(Fore.RED + 'some red text')
+  #  print(Back.GREEN + 'and with a green background')
     while True:
         result = calculate(input("rpn calc> "))
         print("Result: ", result)
